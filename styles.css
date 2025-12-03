@@ -13,3 +13,30 @@
    padding: 0;
    box-sizing: border-box;
 }
+
+html {
+    background-color: var(--cream);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 55vh;
+    width: 40vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.productImageDesktop {
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.infoBox {
+    padding: 30px;
+}
